@@ -53,4 +53,12 @@ while opcao == "S":
     
     opcao=input('\nDeseja continuar no programa:S/N\n')[0].upper()
 
+with open('AlertasSalvos.txt','a', encoding='utf-8') as arquivo:
+    for i, (chave, dados) in enumerate(alertas.items(), start=1):
+            arquivo.write(f'---Alerta {i}---\n')
+            arquivo.write(f"Area: {dados['area']}\n")
+            arquivo.write(f"Prioridade: {dados['prioridade']}\n")
+            arquivo.write(f"Descrição: {dados['descrição']}\n\n")
+        
+
 personalizção_str.linper(' POGRAMA FINALIZADO ')
