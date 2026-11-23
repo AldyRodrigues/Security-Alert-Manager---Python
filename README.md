@@ -17,6 +17,7 @@ Projeto desenvolvido em Python com o objetivo de praticar conceitos fundamentais
 - Tratamento de exceções.
 - Reutilização de código.
 - Modularização.
+- Salvar e ler arquivos.
 
 ## Objetivo educacional
 Este projeto faz parte da minha jornada de aprendizado em Python e cibersegurança, com foco inicial em fundamentos de programação e segurança defensiva.
